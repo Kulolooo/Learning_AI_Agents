@@ -101,31 +101,6 @@ Learning_AI_Agents/
 └── tests/                     # 42 个单元测试
 ```
 
-## 与上游的关系
-
-选题结构参考 NirDiamant/GenAI_Agents，该仓库收录 65 篇 notebook，逐篇映射见[附录 B](docs/B-upstream-map.md)。本库为独立撰写，不含上游的代码、文本、图片或数据，实现与插图都在本仓库内完成。上游采用自定义非商业许可，商业使用其材料前需要先阅读它的 `LICENSE`。
-
-## 质量与验证
-
-| 项 | 状态 |
-|---|---|
-| 单元测试 | 42 项通过，`python -m unittest discover -s tests` |
-| 示例脚本 | 6 个，全部可离线运行 |
-| 插图 | 14 张，`diagrams/build_diagrams.py` 可重现 |
-| 依赖 | 运行零依赖，生成插图需要 Pillow |
-| 文档自检 | `python tools/check_links.py`、`python tools/style_audit.py` |
-
-一次刻意挑错的记录（边界用例、可重现性、文献核对、未验证项）写在 [VERIFICATION.md](VERIFICATION.md)。
-
-## 关于发布
-
-本仓库不主动发布到任何平台，是否发布、发到哪里、以什么名义发布，由仓库所有者决定。若决定发布，建议按以下顺序推进。
-
-1. GitHub：确认 `LICENSE` 与[附录 C](docs/C-references.md)的许可表述一致，补一条运行 `python -m unittest` 的 CI。
-2. 静态站点：直接托管 `book.html`，单文件、无外部依赖；也可以把 `docs/` 交给任意静态生成器。
-3. 系列文章：每章可独立成篇，建议保留"图、工程要点、失败模式"三段结构。
-4. 发布前自检：引用链接可达，图与正文编号一致，示例输出与当前代码一致，无第三方商标与版权素材。
-
 ## 许可
 
 代码采用 MIT 许可，见 [LICENSE](LICENSE)。文档与插图采用 CC BY 4.0，见[附录 C](docs/C-references.md)。
