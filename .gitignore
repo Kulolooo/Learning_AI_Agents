@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 运行时产物
+memory/
+*.jsonl
+trace.jsonl
+!docs/**/*.jsonl
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 生成物保留（插图是文档的一部分），但缓存不保留
+diagrams/out/*.png.tmp

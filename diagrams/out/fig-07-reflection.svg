@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680" role="img">
+<rect width="1200" height="680" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 7-1  反思循环与终止条件</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">反思是用评审换质量；评审标准必须是外部的、可重复的</text>
+<rect x="60.0" y="215.0" width="150.0" height="88.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="135.0" y="250.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">初稿</text>
+<text x="135.0" y="272.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">生成器</text>
+<rect x="260.0" y="215.0" width="170.0" height="88.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="345.0" y="250.0" font-size="16.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">评审</text>
+<text x="345.0" y="272.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">规则 / rubric / 测试</text>
+<rect x="480.0" y="220.0" width="150.0" height="78.0" rx="12.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="555.0" y="250.0" font-size="16.0" fill="#312e81" text-anchor="middle" font-weight="700" dominant-baseline="middle">达到标准？</text>
+<text x="555.0" y="272.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">分数 ≥ 阈值</text>
+<rect x="680.0" y="215.0" width="150.0" height="88.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="755.0" y="250.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">定稿</text>
+<text x="755.0" y="272.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">输出 + 评分记录</text>
+<rect x="480.0" y="390.0" width="150.0" height="88.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="555.0" y="425.0" font-size="16.0" fill="#0c4a6e" text-anchor="middle" font-weight="700" dominant-baseline="middle">修订</text>
+<text x="555.0" y="447.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">带着问题清单重写</text>
+<line x1="210.0" y1="259.0" x2="260.0" y2="259.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="260.0,259.0 249.0,265.0 249.0,253.0" fill="#64748b"/>
+<rect x="213.1" y="234.5" width="43.8" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="235.0" y="249.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">draft</text>
+<line x1="430.0" y1="259.0" x2="480.0" y2="259.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="480.0,259.0 469.0,265.0 469.0,253.0" fill="#64748b"/>
+<rect x="433.1" y="234.5" width="43.8" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="455.0" y="249.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">score</text>
+<line x1="630.0" y1="259.0" x2="680.0" y2="259.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="680.0,259.0 669.0,265.0 669.0,253.0" fill="#64748b"/>
+<rect x="638.0" y="234.5" width="34.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="655.0" y="249.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">通过</text>
+<line x1="555.0" y1="298.0" x2="555.0" y2="390.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="555.0,390.0 549.0,379.0 561.0,379.0" fill="#64748b"/>
+<rect x="531.5" y="333.5" width="47.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="555.0" y="348.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">未通过</text>
+<polyline points="480.0,434.0 380.0,434.0 380.0,303.0" fill="none" stroke="#0ea5e9" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="380.0,303.0 386.0,314.0 374.0,314.0" fill="#0ea5e9"/>
+<rect x="339.2" y="404.0" width="131.6" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="405.0" y="418.2" font-size="12.0" fill="#0369a1" text-anchor="middle" dominant-baseline="middle">重写后回评审（≤ N 轮）</text>
+<rect x="680.0" y="370.0" width="480.0" height="260.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="696.0" y="396.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">三条终止条件，缺一不可</text>
+<text x="705.0" y="412.0" font-size="12.5" fill="#475569" text-anchor="start" dominant-baseline="middle">① 分数达标：rubric 全项通过，而不是感觉更好。</text>
+<text x="705.0" y="452.0" font-size="12.5" fill="#475569" text-anchor="start" dominant-baseline="middle">② 轮数触顶：反思会过拟合评审，3 轮之后收益通常趋零。</text>
+<text x="705.0" y="492.0" font-size="12.5" fill="#475569" text-anchor="start" dominant-baseline="middle">③ 收益递减：新稿分数低于上一稿，立即回退到最佳版本。</text>
+<text x="705.0" y="548.0" font-size="12.0" fill="#be123c" text-anchor="start" dominant-baseline="middle">反模式：让模型再检查一遍却没有评分标准——它只会换一种说法。</text>
+</svg>

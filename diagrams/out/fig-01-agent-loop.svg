@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" width="1120" height="680" role="img">
+<rect width="1120" height="680" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 1-1  智能体的最小闭环</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">循环的每一圈都在重写上下文；终止条件与轨迹是工程化的两根支柱</text>
+<rect x="40.0" y="100.0" width="1040.0" height="300.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="56.0" y="126.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">① 控制循环：从任务到答复</text>
+<rect x="60.0" y="175.0" width="170.0" height="92.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="145.0" y="212.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">任务输入</text>
+<text x="145.0" y="234.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">用户目标 + 初始上下文</text>
+<rect x="300.0" y="175.0" width="200.0" height="92.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="400.0" y="212.0" font-size="16.0" fill="#0c4a6e" text-anchor="middle" font-weight="700" dominant-baseline="middle">上下文装配</text>
+<text x="400.0" y="234.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">系统提示·历史·记忆·工具说明</text>
+<rect x="570.0" y="175.0" width="170.0" height="92.0" rx="12.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="655.0" y="212.0" font-size="16.0" fill="#312e81" text-anchor="middle" font-weight="700" dominant-baseline="middle">模型决策</text>
+<text x="655.0" y="234.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">继续调用 / 收尾</text>
+<rect x="810.0" y="175.0" width="200.0" height="92.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="910.0" y="212.0" font-size="16.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">工具执行</text>
+<text x="910.0" y="234.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">校验 → 调用 → 截断</text>
+<rect x="570.0" y="330.0" width="170.0" height="62.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="655.0" y="352.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">最终答复</text>
+<text x="655.0" y="374.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">结论 + 引用</text>
+<line x1="230.0" y1="221.0" x2="300.0" y2="221.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="300.0,221.0 289.0,227.0 289.0,215.0" fill="#64748b"/>
+<rect x="246.7" y="196.5" width="36.6" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="265.0" y="211.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">user</text>
+<line x1="500.0" y1="221.0" x2="570.0" y2="221.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="570.0,221.0 559.0,227.0 559.0,215.0" fill="#64748b"/>
+<rect x="509.6" y="196.5" width="50.9" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="535.0" y="211.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">prompt</text>
+<line x1="740.0" y1="221.0" x2="810.0" y2="221.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="810.0,221.0 799.0,227.0 799.0,215.0" fill="#64748b"/>
+<rect x="738.8" y="196.5" width="72.4" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="775.0" y="211.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">tool_call</text>
+<line x1="655.0" y1="267.0" x2="655.0" y2="330.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="655.0,330.0 649.0,319.0 661.0,319.0" fill="#64748b"/>
+<rect x="618.5" y="288.0" width="73.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="655.0" y="303.1" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">无工具调用</text>
+<polyline points="910.0,267.0 910.0,305.0 400.0,305.0 400.0,267.0" fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="400.0,267.0 406.0,278.0 394.0,278.0" fill="#f59e0b"/>
+<rect x="417.6" y="295.0" width="204.8" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="520.0" y="309.2" font-size="12.0" fill="#b45309" text-anchor="middle" dominant-baseline="middle">观察回灌（结果 / 错误 / 截断标记）</text>
+<rect x="40.0" y="420.0" width="500.0" height="220.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="56.0" y="446.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">② 状态层：上下文就是状态</text>
+<rect x="70.0" y="470.0" width="200.0" height="70.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="170.0" y="496.0" font-size="16.0" fill="#0c4a6e" text-anchor="middle" font-weight="700" dominant-baseline="middle">工作记忆</text>
+<text x="170.0" y="518.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">最近若干轮</text>
+<rect x="300.0" y="470.0" width="200.0" height="70.0" rx="12.0" fill="#ede9fe" fill-opacity="1.0" stroke="#a78bfa" stroke-width="2.0"/>
+<text x="400.0" y="496.0" font-size="16.0" fill="#4c1d95" text-anchor="middle" font-weight="700" dominant-baseline="middle">长期记忆</text>
+<text x="400.0" y="518.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">事实 / 偏好 / 情景</text>
+<rect x="70.0" y="560.0" width="430.0" height="54.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="285.0" y="578.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">轨迹（trace）</text>
+<text x="285.0" y="600.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">每一步输入摘要、工具调用、耗时、错误</text>
+<line x1="170.0" y1="540.0" x2="170.0" y2="560.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="170.0,560.0 164.0,549.0 176.0,549.0" fill="#94a3b8"/>
+<line x1="400.0" y1="540.0" x2="400.0" y2="560.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="400.0,560.0 394.0,549.0 406.0,549.0" fill="#94a3b8"/>
+<rect x="560.0" y="420.0" width="520.0" height="220.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="576.0" y="446.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">③ 控制层：什么时候必须停</text>
+<rect x="590.0" y="470.0" width="210.0" height="70.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="2.0"/>
+<text x="695.0" y="496.0" font-size="16.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">预算</text>
+<text x="695.0" y="518.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">token / 步数 / 时间</text>
+<rect x="820.0" y="470.0" width="230.0" height="70.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="2.0"/>
+<text x="935.0" y="496.0" font-size="16.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">重复检测</text>
+<text x="935.0" y="518.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">同工具同参数 ≥ N 次</text>
+<rect x="590.0" y="560.0" width="460.0" height="54.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="820.0" y="587.0" font-size="16.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">审批门与白名单：副作用工具的执行许可</text>
+<line x1="695.0" y1="540.0" x2="695.0" y2="560.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="695.0,560.0 689.0,549.0 701.0,549.0" fill="#94a3b8"/>
+</svg>

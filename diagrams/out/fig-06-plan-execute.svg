@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 640" width="1160" height="640" role="img">
+<rect width="1160" height="640" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 6-1  计划-执行-重规划</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">计划是承诺，重规划是纠错；没有重规划的计划系统等于把错误放大 N 倍</text>
+<rect x="50.0" y="200.0" width="150.0" height="90.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="125.0" y="236.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">目标</text>
+<text x="125.0" y="258.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">多步任务</text>
+<rect x="240.0" y="200.0" width="170.0" height="90.0" rx="12.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="325.0" y="236.0" font-size="16.0" fill="#312e81" text-anchor="middle" font-weight="700" dominant-baseline="middle">规划器</text>
+<text x="325.0" y="258.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">拆成 2-5 步</text>
+<line x1="200.0" y1="245.0" x2="240.0" y2="245.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="240.0,245.0 229.0,251.0 229.0,239.0" fill="#64748b"/>
+<rect x="201.7" y="220.5" width="36.6" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="220.0" y="235.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">task</text>
+<rect x="450.0" y="120.0" width="250.0" height="300.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="466.0" y="146.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">计划（可编辑的状态机）</text>
+<rect x="475.0" y="165.0" width="200.0" height="56.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="575.0" y="184.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">s1 确认口径</text>
+<text x="575.0" y="206.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">done</text>
+<rect x="475.0" y="235.0" width="200.0" height="56.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="575.0" y="254.0" font-size="16.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">s2 拉取数据</text>
+<text x="575.0" y="276.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">running</text>
+<rect x="475.0" y="305.0" width="200.0" height="56.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="575.0" y="324.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">s3 生成报告</text>
+<text x="575.0" y="346.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">pending</text>
+<line x1="575.0" y1="221.0" x2="575.0" y2="235.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="575.0,235.0 569.0,224.0 581.0,224.0" fill="#94a3b8"/>
+<line x1="575.0" y1="291.0" x2="575.0" y2="305.0" stroke="#94a3b8" stroke-width="2.0" stroke-dasharray="4 4"/>
+<polygon points="575.0,305.0 569.0,294.0 581.0,294.0" fill="#94a3b8"/>
+<polyline points="410.0,245.0 442.5,245.0 442.5,193.0 475.0,193.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="475.0,193.0 464.0,199.0 464.0,187.0" fill="#64748b"/>
+<rect x="424.2" y="208.5" width="36.6" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="442.5" y="223.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">plan</text>
+<rect x="750.0" y="200.0" width="160.0" height="90.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="830.0" y="236.0" font-size="16.0" fill="#0c4a6e" text-anchor="middle" font-weight="700" dominant-baseline="middle">执行器</text>
+<text x="830.0" y="258.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">工具 / 子智能体</text>
+<rect x="970.0" y="200.0" width="150.0" height="90.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="1045.0" y="236.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">汇总</text>
+<text x="1045.0" y="258.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">结果 + 失败原因</text>
+<polyline points="675.0,263.0 712.5,263.0 712.5,245.0 750.0,245.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="750.0,245.0 739.0,251.0 739.0,239.0" fill="#64748b"/>
+<rect x="682.5" y="243.5" width="60.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="712.5" y="258.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">取下一步</text>
+<line x1="910.0" y1="245.0" x2="970.0" y2="245.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="970.0,245.0 959.0,251.0 959.0,239.0" fill="#64748b"/>
+<rect x="921.7" y="220.5" width="36.6" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="940.0" y="235.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">done</text>
+<rect x="600.0" y="430.0" width="200.0" height="80.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="2.0"/>
+<text x="700.0" y="461.0" font-size="16.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">重规划器</text>
+<text x="700.0" y="483.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">改写剩余步骤 / 降级</text>
+<polyline points="830.0,290.0 830.0,430.0" fill="none" stroke="#fb7185" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="830.0,430.0 824.0,419.0 836.0,419.0" fill="#fb7185"/>
+<rect x="829.6" y="350.0" width="180.8" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="920.0" y="364.2" font-size="12.0" fill="#be123c" text-anchor="middle" dominant-baseline="middle">第 n 步失败（超时 / 校验失败）</text>
+<polyline points="600.0,470.0 430.0,470.0 430.0,333.0 475.0,333.0" fill="none" stroke="#fb7185" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="475.0,333.0 464.0,339.0 464.0,327.0" fill="#fb7185"/>
+<rect x="422.4" y="460.0" width="165.2" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="505.0" y="474.2" font-size="12.0" fill="#be123c" text-anchor="middle" dominant-baseline="middle">回到待执行队列（有次数上限）</text>
+<text x="50.0" y="585.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">关键设计：步骤状态必须显式落盘（done / running / failed），否则重规划时无法判断哪些工作可复用。</text>
+</svg>

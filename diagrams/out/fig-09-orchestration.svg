@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 660" width="1160" height="660" role="img">
+<rect width="1160" height="660" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 9-1  图编排：状态、条件边与人工中断</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">把 Agent 从一个函数变成一张可暂停、可恢复、可回放的状态图</text>
+<rect x="50.0" y="200.0" width="110.0" height="70.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="105.0" y="226.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">入口</text>
+<text x="105.0" y="248.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">input</text>
+<rect x="210.0" y="200.0" width="140.0" height="70.0" rx="12.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="280.0" y="226.0" font-size="16.0" fill="#312e81" text-anchor="middle" font-weight="700" dominant-baseline="middle">规划</text>
+<text x="280.0" y="248.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">state</text>
+<rect x="400.0" y="200.0" width="140.0" height="70.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="470.0" y="226.0" font-size="16.0" fill="#0c4a6e" text-anchor="middle" font-weight="700" dominant-baseline="middle">执行</text>
+<text x="470.0" y="248.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">tool / llm</text>
+<rect x="590.0" y="200.0" width="150.0" height="70.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="665.0" y="226.0" font-size="16.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">校验</text>
+<text x="665.0" y="248.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">schema / test</text>
+<rect x="590.0" y="360.0" width="150.0" height="70.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="2.0"/>
+<text x="665.0" y="386.0" font-size="16.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">人工审批</text>
+<text x="665.0" y="408.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">interrupt</text>
+<rect x="800.0" y="200.0" width="120.0" height="70.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="860.0" y="226.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">出口</text>
+<text x="860.0" y="248.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">output</text>
+<line x1="160.0" y1="235.0" x2="210.0" y2="235.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="210.0,235.0 199.0,241.0 199.0,229.0" fill="#64748b"/>
+<rect x="163.1" y="210.5" width="43.8" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="185.0" y="225.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">edges</text>
+<line x1="350.0" y1="235.0" x2="400.0" y2="235.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="400.0,235.0 389.0,241.0 389.0,229.0" fill="#64748b"/>
+<rect x="356.7" y="210.5" width="36.6" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="375.0" y="225.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">next</text>
+<line x1="540.0" y1="235.0" x2="590.0" y2="235.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="590.0,235.0 579.0,241.0 579.0,229.0" fill="#64748b"/>
+<rect x="539.5" y="210.5" width="50.9" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="565.0" y="225.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">result</text>
+<line x1="740.0" y1="235.0" x2="800.0" y2="235.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="800.0,235.0 789.0,241.0 789.0,229.0" fill="#64748b"/>
+<rect x="751.7" y="210.5" width="36.6" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="770.0" y="225.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">pass</text>
+<line x1="665.0" y1="270.0" x2="665.0" y2="360.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="665.0,360.0 659.0,349.0 671.0,349.0" fill="#64748b"/>
+<rect x="641.5" y="304.5" width="47.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="665.0" y="319.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">需确认</text>
+<polyline points="590.0,395.0 530.0,395.0 530.0,270.0 470.0,270.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="470.0,270.0 481.0,264.0 481.0,276.0" fill="#64748b"/>
+<rect x="493.5" y="322.0" width="73.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="530.0" y="337.1" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">批准后重入</text>
+<polyline points="650.0,200.0 650.0,150.0 280.0,150.0 280.0,200.0" fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="280.0,200.0 274.0,189.0 286.0,189.0" fill="#f59e0b"/>
+<rect x="382.3" y="140.0" width="175.4" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="470.0" y="154.2" font-size="12.0" fill="#b45309" text-anchor="middle" dominant-baseline="middle">fail → 重规划（带上失败原因）</text>
+<rect x="50.0" y="480.0" width="1080.0" height="130.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="66.0" y="506.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">持久化：每一步之后写检查点</text>
+<text x="75.0" y="525.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">检查点 = 完整状态快照（消息、计划、工具结果、预算计数）+ 版本号。有了它，中断可恢复、失败可重放、评测可复现。</text>
+<text x="75.0" y="567.0" font-size="12.0" fill="#475569" text-anchor="start" dominant-baseline="middle">代价：状态必须可序列化——把数据库连接、文件句柄这类东西挡在状态之外。</text>
+<text x="1020.0" y="182.0" font-size="12.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">每个节点的护栏</text>
+<rect x="960.0" y="200.0" width="54.0" height="24.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="1.5"/>
+<text x="987.0" y="216.5" font-size="12.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">幂等键</text>
+<rect x="960.0" y="236.0" width="42.0" height="24.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="1.5"/>
+<text x="981.0" y="252.5" font-size="12.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">超时</text>
+<rect x="960.0" y="272.0" width="66.0" height="24.0" rx="12.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="1.5"/>
+<text x="993.0" y="288.5" font-size="12.0" fill="#312e81" text-anchor="middle" font-weight="700" dominant-baseline="middle">重试上限</text>
+</svg>

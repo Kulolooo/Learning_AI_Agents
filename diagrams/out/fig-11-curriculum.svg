@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 760" width="1160" height="760" role="img">
+<rect width="1160" height="760" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 0-1  学习路线：四个阶段，十三个章节</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">从最小闭环到综合案例，每一章都可以独立运行、独立验证</text>
+<rect x="60.0" y="110.0" width="1040.0" height="120.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="76.0" y="136.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">第一阶段 · 基础</text>
+<rect x="90.0" y="155.0" width="220.0" height="56.0" rx="10.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="108.0" y="189.0" font-size="18.0" fill="#312e81" text-anchor="start" font-weight="700" dominant-baseline="middle">01</text>
+<text x="142.0" y="189.0" font-size="14.0" fill="#312e81" text-anchor="start" dominant-baseline="middle">定义与闭环</text>
+<rect x="330.0" y="155.0" width="220.0" height="56.0" rx="10.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="348.0" y="189.0" font-size="18.0" fill="#312e81" text-anchor="start" font-weight="700" dominant-baseline="middle">02</text>
+<text x="382.0" y="189.0" font-size="14.0" fill="#312e81" text-anchor="start" dominant-baseline="middle">上下文工程</text>
+<rect x="570.0" y="155.0" width="220.0" height="56.0" rx="10.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="588.0" y="189.0" font-size="18.0" fill="#312e81" text-anchor="start" font-weight="700" dominant-baseline="middle">03</text>
+<text x="622.0" y="189.0" font-size="14.0" fill="#312e81" text-anchor="start" dominant-baseline="middle">工具调用</text>
+<rect x="810.0" y="155.0" width="220.0" height="56.0" rx="10.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="828.0" y="189.0" font-size="18.0" fill="#312e81" text-anchor="start" font-weight="700" dominant-baseline="middle">04</text>
+<text x="862.0" y="189.0" font-size="14.0" fill="#312e81" text-anchor="start" dominant-baseline="middle">记忆系统</text>
+<rect x="60.0" y="260.0" width="1040.0" height="120.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="76.0" y="286.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">第二阶段 · 单智能体能力</text>
+<rect x="90.0" y="305.0" width="220.0" height="56.0" rx="10.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="108.0" y="339.0" font-size="18.0" fill="#0c4a6e" text-anchor="start" font-weight="700" dominant-baseline="middle">05</text>
+<text x="142.0" y="339.0" font-size="14.0" fill="#0c4a6e" text-anchor="start" dominant-baseline="middle">规划与路由</text>
+<rect x="330.0" y="305.0" width="220.0" height="56.0" rx="10.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="348.0" y="339.0" font-size="18.0" fill="#0c4a6e" text-anchor="start" font-weight="700" dominant-baseline="middle">06</text>
+<text x="382.0" y="339.0" font-size="14.0" fill="#0c4a6e" text-anchor="start" dominant-baseline="middle">反思与修正</text>
+<rect x="570.0" y="305.0" width="220.0" height="56.0" rx="10.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="588.0" y="339.0" font-size="18.0" fill="#0c4a6e" text-anchor="start" font-weight="700" dominant-baseline="middle">07</text>
+<text x="622.0" y="339.0" font-size="14.0" fill="#0c4a6e" text-anchor="start" dominant-baseline="middle">检索增强</text>
+<rect x="60.0" y="410.0" width="1040.0" height="120.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="76.0" y="436.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">第三阶段 · 协作与工程</text>
+<rect x="90.0" y="455.0" width="220.0" height="56.0" rx="10.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="108.0" y="489.0" font-size="18.0" fill="#14532d" text-anchor="start" font-weight="700" dominant-baseline="middle">08</text>
+<text x="142.0" y="489.0" font-size="14.0" fill="#14532d" text-anchor="start" dominant-baseline="middle">多智能体</text>
+<rect x="330.0" y="455.0" width="220.0" height="56.0" rx="10.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="348.0" y="489.0" font-size="18.0" fill="#14532d" text-anchor="start" font-weight="700" dominant-baseline="middle">09</text>
+<text x="382.0" y="489.0" font-size="14.0" fill="#14532d" text-anchor="start" dominant-baseline="middle">图编排</text>
+<rect x="570.0" y="455.0" width="220.0" height="56.0" rx="10.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="588.0" y="489.0" font-size="18.0" fill="#14532d" text-anchor="start" font-weight="700" dominant-baseline="middle">10</text>
+<text x="622.0" y="489.0" font-size="14.0" fill="#14532d" text-anchor="start" dominant-baseline="middle">评估与可观测</text>
+<rect x="60.0" y="560.0" width="1040.0" height="120.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="76.0" y="586.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">第四阶段 · 综合实践</text>
+<rect x="90.0" y="605.0" width="220.0" height="56.0" rx="10.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="108.0" y="639.0" font-size="18.0" fill="#78350f" text-anchor="start" font-weight="700" dominant-baseline="middle">11</text>
+<text x="142.0" y="639.0" font-size="14.0" fill="#78350f" text-anchor="start" dominant-baseline="middle">研究助手</text>
+<rect x="330.0" y="605.0" width="220.0" height="56.0" rx="10.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="348.0" y="639.0" font-size="18.0" fill="#78350f" text-anchor="start" font-weight="700" dominant-baseline="middle">12</text>
+<text x="382.0" y="639.0" font-size="14.0" fill="#78350f" text-anchor="start" dominant-baseline="middle">工单处理</text>
+<rect x="570.0" y="605.0" width="220.0" height="56.0" rx="10.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="588.0" y="639.0" font-size="18.0" fill="#78350f" text-anchor="start" font-weight="700" dominant-baseline="middle">13</text>
+<text x="622.0" y="639.0" font-size="14.0" fill="#78350f" text-anchor="start" dominant-baseline="middle">从原型到产品</text>
+<line x1="110.0" y1="230.0" x2="110.0" y2="260.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="110.0,260.0 104.0,249.0 116.0,249.0" fill="#94a3b8"/>
+<line x1="110.0" y1="380.0" x2="110.0" y2="410.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="110.0,410.0 104.0,399.0 116.0,399.0" fill="#94a3b8"/>
+<line x1="110.0" y1="530.0" x2="110.0" y2="560.0" stroke="#94a3b8" stroke-width="2.0"/>
+<polygon points="110.0,560.0 104.0,549.0 116.0,549.0" fill="#94a3b8"/>
+<text x="90.0" y="710.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">配套：learning_agents 包（可直接运行）· 14 张架构图 · 41 个单元测试 · 上游 64 篇教程映射表</text>
+</svg>

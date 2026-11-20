@@ -1,0 +1,4 @@
+# 运行时零依赖。
+# 只有重新生成插图（diagrams/build_diagrams.py）需要 Pillow：
+#   pip install -r requirements.txt
+Pillow>=10.0

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 680" width="1160" height="680" role="img">
+<rect width="1160" height="680" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 12-1  客服工单处理：路由 + 工具 + 升级</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">高频问题走确定性路径，长尾问题才交给自主循环；不可逆动作必须审批</text>
+<rect x="50.0" y="240.0" width="150.0" height="80.0" rx="12.0" fill="#f8fafc" fill-opacity="1.0" stroke="#cbd5e1" stroke-width="2.0"/>
+<text x="125.0" y="271.0" font-size="16.0" fill="#0f172a" text-anchor="middle" font-weight="700" dominant-baseline="middle">工单</text>
+<text x="125.0" y="293.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">文本 + 订单号</text>
+<rect x="240.0" y="240.0" width="150.0" height="80.0" rx="12.0" fill="#eef2ff" fill-opacity="1.0" stroke="#818cf8" stroke-width="2.0"/>
+<text x="315.0" y="271.0" font-size="16.0" fill="#312e81" text-anchor="middle" font-weight="700" dominant-baseline="middle">路由</text>
+<text x="315.0" y="293.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">意图 + 紧急度</text>
+<line x1="200.0" y1="280.0" x2="240.0" y2="280.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="240.0,280.0 229.0,286.0 229.0,274.0" fill="#64748b"/>
+<rect x="183.8" y="255.5" width="72.4" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="220.0" y="270.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">normalize</text>
+<rect x="440.0" y="110.0" width="310.0" height="330.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="456.0" y="136.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">三条确定性路径</text>
+<rect x="465.0" y="150.0" width="260.0" height="66.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="595.0" y="174.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">退款 / 发票</text>
+<text x="595.0" y="196.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">查政策 → 校验资格</text>
+<rect x="465.0" y="236.0" width="260.0" height="66.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="595.0" y="260.0" font-size="16.0" fill="#0c4a6e" text-anchor="middle" font-weight="700" dominant-baseline="middle">物流异常</text>
+<text x="595.0" y="282.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">查轨迹 → 生成解释</text>
+<rect x="465.0" y="322.0" width="260.0" height="66.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="2.0"/>
+<text x="595.0" y="346.0" font-size="16.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">投诉 / 复杂</text>
+<text x="595.0" y="368.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">升级人工 + 摘要</text>
+<polyline points="390.0,280.0 427.5,280.0 427.5,183.0 465.0,183.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="465.0,183.0 454.0,189.0 454.0,177.0" fill="#64748b"/>
+<rect x="410.5" y="221.0" width="34.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="427.5" y="236.1" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">票据</text>
+<polyline points="390.0,280.0 427.5,280.0 427.5,269.0 465.0,269.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="465.0,269.0 454.0,275.0 454.0,263.0" fill="#64748b"/>
+<rect x="410.5" y="264.0" width="34.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="427.5" y="279.1" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">物流</text>
+<polyline points="390.0,280.0 427.5,280.0 427.5,355.0 465.0,355.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="465.0,355.0 454.0,361.0 454.0,349.0" fill="#64748b"/>
+<rect x="410.5" y="307.0" width="34.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="427.5" y="322.1" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">升级</text>
+<rect x="780.0" y="150.0" width="160.0" height="80.0" rx="12.0" fill="#fef3c7" fill-opacity="1.0" stroke="#fbbf24" stroke-width="2.0"/>
+<text x="860.0" y="181.0" font-size="16.0" fill="#78350f" text-anchor="middle" font-weight="700" dominant-baseline="middle">工具层</text>
+<text x="860.0" y="203.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">订单 / 政策 / 物流</text>
+<rect x="780.0" y="260.0" width="160.0" height="80.0" rx="12.0" fill="#ede9fe" fill-opacity="1.0" stroke="#a78bfa" stroke-width="2.0"/>
+<text x="860.0" y="291.0" font-size="16.0" fill="#4c1d95" text-anchor="middle" font-weight="700" dominant-baseline="middle">策略校验</text>
+<text x="860.0" y="313.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">金额 / 时效 / 权限</text>
+<rect x="780.0" y="370.0" width="160.0" height="80.0" rx="12.0" fill="#ffe4e6" fill-opacity="1.0" stroke="#fb7185" stroke-width="2.0"/>
+<text x="860.0" y="401.0" font-size="16.0" fill="#881337" text-anchor="middle" font-weight="700" dominant-baseline="middle">审批门</text>
+<text x="860.0" y="423.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">退款金额 &gt; 阈值</text>
+<polyline points="725.0,183.0 752.5,183.0 752.5,190.0 780.0,190.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="780.0,190.0 769.0,196.0 769.0,184.0" fill="#64748b"/>
+<rect x="730.6" y="176.0" width="43.8" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="752.5" y="191.1" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">query</text>
+<line x1="860.0" y1="230.0" x2="860.0" y2="260.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="860.0,260.0 854.0,249.0 866.0,249.0" fill="#64748b"/>
+<rect x="838.1" y="234.5" width="43.8" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="860.0" y="249.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">facts</text>
+<line x1="860.0" y1="340.0" x2="860.0" y2="370.0" stroke="#64748b" stroke-width="2.2"/>
+<polygon points="860.0,370.0 854.0,359.0 866.0,359.0" fill="#64748b"/>
+<rect x="836.5" y="344.5" width="47.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="860.0" y="359.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">高风险</text>
+<rect x="985.0" y="240.0" width="150.0" height="80.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="1060.0" y="271.0" font-size="16.0" fill="#14532d" text-anchor="middle" font-weight="700" dominant-baseline="middle">回复</text>
+<text x="1060.0" y="293.0" font-size="12.5" fill="#475569" text-anchor="middle" dominant-baseline="middle">结论 + 依据</text>
+<polyline points="940.0,300.0 962.5,300.0 962.5,280.0 985.0,280.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="985.0,280.0 974.0,286.0 974.0,274.0" fill="#64748b"/>
+<rect x="945.5" y="279.5" width="34.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="962.5" y="294.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">通过</text>
+<polyline points="940.0,410.0 962.5,410.0 962.5,280.0 985.0,280.0" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="985.0,280.0 974.0,286.0 974.0,274.0" fill="#64748b"/>
+<rect x="945.5" y="334.5" width="34.0" height="21.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="962.5" y="349.6" font-size="13.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">批准</text>
+<polyline points="1060.0,320.0 1060.0,500.0 330.0,500.0 330.0,320.0" fill="none" stroke="#94a3b8" stroke-width="2.0" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<polygon points="330.0,320.0 336.0,331.0 324.0,331.0" fill="#94a3b8"/>
+<rect x="560.8" y="490.0" width="238.4" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="680.0" y="504.2" font-size="12.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">未解决 → 回到路由，并把失败原因写进工单</text>
+<text x="50.0" y="560.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">评估用例：退款金额边界、政策版本过期、用户情绪升级、工具超时。每条用例都断言调用了哪个工具、是否停在审批门。</text>
+</svg>

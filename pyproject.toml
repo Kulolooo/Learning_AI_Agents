@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learning-ai-agents"
+version = "0.1.0"
+description = "从零实现的智能体机制与中文工程读本（零运行时依赖）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Learning_AI_Agents contributors" }]
+keywords = ["agents", "llm", "rag", "evaluation", "education", "chinese"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+dependencies = []
+
+[project.optional-dependencies]
+# 只有生成插图需要 Pillow；运行、测试、构建文档都不需要第三方包
+diagrams = ["Pillow>=10"]
+
+[project.urls]
+Homepage = "https://github.com/your-name/Learning_AI_Agents"
+
+[tool.setuptools]
+packages = ["learning_agents"]
+
+[tool.setuptools.package-data]
+learning_agents = ["py.typed"]

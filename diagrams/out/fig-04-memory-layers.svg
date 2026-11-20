@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 640" width="1120" height="640" role="img">
+<rect width="1120" height="640" fill="#ffffff"/>
+<style>text{font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif;}</style>
+<text x="40.0" y="44.0" font-size="23.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">图 4-1  三层记忆的读写与淘汰</text>
+<text x="40.0" y="70.0" font-size="14.0" fill="#475569" text-anchor="start" dominant-baseline="middle">写入决定成本，读取决定质量；遗忘不是缺陷，是必要的维护</text>
+<rect x="60.0" y="110.0" width="1000.0" height="90.0" rx="12.0" fill="#e0f2fe" fill-opacity="1.0" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="90.0" y="145.0" font-size="16.0" fill="#0c4a6e" text-anchor="start" font-weight="700" dominant-baseline="middle">工作记忆（working）</text>
+<text x="90.0" y="172.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">最近 N 轮对话 / 当前子任务状态 · 滑动窗口淘汰</text>
+<text x="1010.0" y="155.0" font-size="12.0" fill="#0369a1" text-anchor="end" dominant-baseline="middle">读: 每轮注入</text>
+<rect x="60.0" y="240.0" width="1000.0" height="100.0" rx="12.0" fill="#ede9fe" fill-opacity="1.0" stroke="#a78bfa" stroke-width="2.0"/>
+<text x="90.0" y="275.0" font-size="16.0" fill="#4c1d95" text-anchor="start" font-weight="700" dominant-baseline="middle">情景记忆（episodic）</text>
+<text x="90.0" y="302.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">任务 → 步骤 → 结果的完整经历，按任务相似度召回</text>
+<text x="1010.0" y="290.0" font-size="12.0" fill="#6d28d9" text-anchor="end" dominant-baseline="middle">读: top-k 相似任务</text>
+<rect x="60.0" y="380.0" width="1000.0" height="100.0" rx="12.0" fill="#dcfce7" fill-opacity="1.0" stroke="#4ade80" stroke-width="2.0"/>
+<text x="90.0" y="415.0" font-size="16.0" fill="#14532d" text-anchor="start" font-weight="700" dominant-baseline="middle">语义记忆（semantic）</text>
+<text x="90.0" y="442.0" font-size="13.0" fill="#475569" text-anchor="start" dominant-baseline="middle">稳定事实 / 用户偏好 / 领域知识，带时间戳与置信度</text>
+<text x="1010.0" y="430.0" font-size="12.0" fill="#15803d" text-anchor="end" dominant-baseline="middle">读: 向量召回 + 重排</text>
+<line x1="240.0" y1="200.0" x2="240.0" y2="240.0" stroke="#0ea5e9" stroke-width="2.0"/>
+<polygon points="240.0,240.0 234.0,229.0 246.0,229.0" fill="#0ea5e9"/>
+<rect x="298.7" y="212.0" width="62.6" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="330.0" y="226.2" font-size="12.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">压缩/提炼</text>
+<line x1="240.0" y1="340.0" x2="240.0" y2="380.0" stroke="#8b5cf6" stroke-width="2.0"/>
+<polygon points="240.0,380.0 234.0,369.0 246.0,369.0" fill="#8b5cf6"/>
+<rect x="280.1" y="352.0" width="99.8" height="20.0" rx="4.0" fill="#ffffff" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="330.0" y="366.2" font-size="12.0" fill="#475569" text-anchor="middle" dominant-baseline="middle">去重 / 冲突合并</text>
+<line x1="860.0" y1="380.0" x2="860.0" y2="340.0" stroke="#22c55e" stroke-width="2.0"/>
+<polygon points="860.0,340.0 866.0,351.0 854.0,351.0" fill="#22c55e"/>
+<line x1="860.0" y1="240.0" x2="860.0" y2="200.0" stroke="#22c55e" stroke-width="2.0"/>
+<polygon points="860.0,200.0 866.0,211.0 854.0,211.0" fill="#22c55e"/>
+<rect x="60.0" y="510.0" width="470.0" height="100.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="76.0" y="536.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">淘汰策略</text>
+<text x="85.0" y="555.0" font-size="12.0" fill="#475569" text-anchor="start" dominant-baseline="middle">工作：按轮数；情景：按时间 + 成功率；语义：按重要度 × 新近度。</text>
+<rect x="590.0" y="510.0" width="470.0" height="100.0" rx="14.0" fill="#ffffff" fill-opacity="0.55" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="606.0" y="536.0" font-size="14.0" fill="#0f172a" text-anchor="start" font-weight="700" dominant-baseline="middle">失效信号</text>
+<text x="615.0" y="555.0" font-size="12.0" fill="#475569" text-anchor="start" dominant-baseline="middle">同一事实出现两个版本、召回内容与当前任务无关、用户明确更正。</text>
+</svg>
